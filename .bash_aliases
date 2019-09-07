@@ -1,1 +1,1 @@
-../.bash_aliases
+/Users/jimmy/.bash_aliases
