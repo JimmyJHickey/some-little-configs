@@ -17,6 +17,7 @@ cp ${BASH_ALIAS_LOCATION} ${BASH_ALIAS_FILE}
 VIM_RC_LOCATION="/Users/jimmy/.vimrc"
 VIM_RC_FILE="vimrc"
 
+cp ${VIM_RC_LOCATION} ${VIM_RC_FILE}
 
 # Commit new changes
 DATE="$(date '+%Y-%m-%d %H:%M:%S')"
