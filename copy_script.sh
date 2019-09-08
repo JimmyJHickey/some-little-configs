@@ -4,7 +4,28 @@
 # A script to copy config files into this repo
 ###
 
+# Pull latest changes
+git pull
+
+# Start copying config files
+
 BASH_ALIAS_LOCATION="/Users/jimmy/.bash_aliases"
 BASH_ALIAS_FILE="bash_aliases"
 
 cp ${BASH_ALIAS_LOCATION} ${BASH_ALIAS_FILE}
+
+VIM_RC_LOCATION="/Users/jimmy/.vimrc"
+VIM_RC_FILE="vimrc"
+
+
+# Commit new changes
+DATE="$(date '+%Y-%m-%d %H:%M:%S')"
+COMMIT_MESSAGE="Config update "${DATE}
+
+CHANGES="$(git status --porcelain)"
+
+if [[ "${CHANGES}" ]]; then
+	git add -A
+	git commit -m "${COMMIT_MESSAGE}"
+	git push
+fi
