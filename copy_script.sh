@@ -19,11 +19,11 @@ cp ${BASH_ALIAS_LOCATION} ${BASH_ALIAS_FILE}
 VIM_RC_LOCATION="/Users/jimmy/.vimrc"
 VIM_RC_FILE="vimrc"
 
-cp ${VIM_RC_LOCATION} ${VIM_RC_FILE}
+cp "${VIM_RC_LOCATION}" "${VIM_RC_FILE}"
 
 # Cron jobs
 CRONTAB_FILE="crontab"
-crontab -e > ${CRONTAB_FILE}
+crontab -l > ${CRONTAB_FILE}
 
 
 # Commit new changes
@@ -31,6 +31,7 @@ DATE="$(date '+%Y-%m-%d %H:%M:%S')"
 COMMIT_MESSAGE="Config update "${DATE}
 
 CHANGES="$(git status --porcelain)"
+
 
 if [[ "${CHANGES}" ]]; then
 	git add -A
