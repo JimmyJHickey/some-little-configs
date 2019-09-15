@@ -26,6 +26,6 @@ alias up-sas="/Users/jimmy/git/grad-scripts/misc/launch_sas.sh"
 
 alias down-sas="/Users/jimmy/git/grad-scripts/misc/close_sas.sh"
 
-alias web="cd /Users/jimmy/git/jimmyjhickey.github.io; jekyll serve & brackets /Users/jimmy/git/jimmyjhickey.github.io & sleep 10; open -na \"Google Chrome\" --args --new-window http://127.0.0.1:4000"
+alias web="cd /Users/jimmy/git/jimmyjhickey.com; brackets /Users/jimmy/git/jimmyjhickey.com & jekyll serve & sleep 10; open -na \"Google Chrome\" --args --new-window http://127.0.0.1:4000"
 
 alias lth="python /Users/jimmy/git/grad-scripts/misc/list-to-headers.py"
