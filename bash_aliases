@@ -30,4 +30,4 @@ alias web="cd /Users/jimmy/git/jimmyjhickey.com; brackets /Users/jimmy/git/jimmy
 
 alias lth="python /Users/jimmy/git/grad-scripts/misc/list-to-headers.py"
 
-alias jekyll-down="kill $(ps -A | grep jekyll  | head -1 | cut -d ' ' -f3)"
+alias jekyll-down="kill $(ps -A | grep jekyll  | head -1 | cut -d ' ' -f1)"
