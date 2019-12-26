@@ -47,6 +47,8 @@ DATE="$(date '+%Y-%m-%d %H:%M:%S')"
 COMMIT_MESSAGE="Config update "${DATE}
 
 CHANGES="$(git status --porcelain)"
+echo "ADSFDSFASDFASDFASDFAS"
+echo $(CHANGES)
 
 
 if [[ "${CHANGES}" ]]; then
