@@ -52,7 +52,6 @@ if [[ "${CHANGES}" ]]; then
 	echo $(date) >> /tmp/sanity
 
 
-
 	git add -A
 	git commit -m "${COMMIT_MESSAGE}"
 	git push origin master
