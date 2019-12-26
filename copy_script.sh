@@ -55,5 +55,5 @@ if [[ "${CHANGES}" ]]; then
 
 	git add -A
 	git commit -m "${COMMIT_MESSAGE}"
-	git push -u origin master
+	git push origin master
 fi
