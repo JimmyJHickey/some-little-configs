@@ -9,9 +9,9 @@ git config --global user.name "jimmyjhickey"
 git config --global user.email "jimmyjhickey@gmail.com"
 
 # sanity check to check that this works
-touch /tmp/sanity
-echo "AM RUNNING" >> /tmp/sanity
-echo $(date) >> /tmp/sanity
+#touch /tmp/sanity
+#echo "AM RUNNING" >> /tmp/sanity
+#echo $(date) >> /tmp/sanity
 
 # Pull latest changes
 git pull
