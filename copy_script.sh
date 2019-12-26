@@ -5,8 +5,8 @@
 ###
 
 # Set up git
-git config --global user.name "jimmyjhickey"
-git config --global user.email "jimmyjhickey@gmail.com"
+git config user.name "jimmyjhickey"
+git config user.email "jimmyjhickey@gmail.com"
 
 # Pull latest changes
 git pull
