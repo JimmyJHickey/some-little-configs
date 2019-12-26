@@ -4,6 +4,11 @@
 # A script to copy config files into this repo
 ###
 
+# sanity check to check that this works
+touch /tmp/sanity
+echo "AM RUNNING" >> /tmp/sanity
+echo $(date) >> /tmp/sanity
+
 # Pull latest changes
 git pull
 
@@ -20,6 +25,13 @@ VIM_RC_LOCATION="/Users/jimmy/.vimrc"
 VIM_RC_FILE="vimrc"
 
 cp "${VIM_RC_LOCATION}" "${VIM_RC_FILE}"
+
+# R Config
+R_CONFIG="/Users/jimmy/.Renviron"
+R_CONFIG_FILE="Renviron"
+
+cp "${R_CONFIG}" "${R_CONFIG_FILE}"
+
 
 # Cron jobs
 CRONTAB_FILE="crontab"
