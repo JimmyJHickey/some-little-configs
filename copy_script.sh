@@ -4,6 +4,10 @@
 # A script to copy config files into this repo
 ###
 
+# Set up git
+git config --global user.name "jimmyjhickey"
+git config --global user.email "jimmyjhickey@gmail.com"
+
 # sanity check to check that this works
 touch /tmp/sanity
 echo "AM RUNNING" >> /tmp/sanity
