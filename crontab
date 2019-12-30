@@ -16,3 +16,4 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
 # back up config scripts
  */3 * * * * cd /Users/jimmy/git/some-little-configs/ && bash /Users/jimmy/git/some-little-configs/copy_script.sh >> /tmp/cronout 2>&1
+0 0 1 * * brew update
