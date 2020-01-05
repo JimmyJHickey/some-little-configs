@@ -4,11 +4,12 @@
 # A script to copy config files into this repo
 ###
 
+REPO_LOCATION="/Users/jimmy/git/some-little-configs"
+cd ${REPO_LOCATION}
+
 # Set up git
 git config user.name "jimmyjhickey"
 git config user.email "jimmyjhickey@gmail.com"
-
-echo $(git config --list)
 
 # Pull latest changes
 git pull
