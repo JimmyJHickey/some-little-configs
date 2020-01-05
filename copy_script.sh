@@ -48,6 +48,7 @@ COMMIT_MESSAGE="Config update "${DATE}
 CHANGES="$(git status --porcelain)"
 
 
+
 if [[ "${CHANGES}" ]]; then
 
 	# sanity check to check that this works
