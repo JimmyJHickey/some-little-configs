@@ -8,7 +8,7 @@
 git config user.name "jimmyjhickey"
 git config user.email "jimmyjhickey@gmail.com"
 
-git config --list
+echo $(git config --list)
 
 # Pull latest changes
 git pull
