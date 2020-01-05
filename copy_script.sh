@@ -8,6 +8,11 @@
 git config user.name "jimmyjhickey"
 git config user.email "jimmyjhickey@gmail.com"
 
+
+# try ssh
+
+git remote set-url origin git@github.com:jimmyjhickey/some-little-configs.git
+
 # Pull latest changes
 git pull
 
@@ -46,7 +51,6 @@ DATE="$(date '+%Y-%m-%d %H:%M:%S')"
 COMMIT_MESSAGE="Config update "${DATE}
 
 CHANGES="$(git status --porcelain)"
-
 
 
 if [[ "${CHANGES}" ]]; then
