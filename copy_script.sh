@@ -4,9 +4,6 @@
 # A script to copy config files into this repo
 ###
 
-REPO_LOCATION="/Users/jimmy/git/some-little-configs"
-cd ${REPO_LOCATION}
-
 # Set up git
 git config user.name "jimmyjhickey"
 git config user.email "jimmyjhickey@gmail.com"
@@ -34,11 +31,15 @@ R_CONFIG_FILE="Renviron"
 
 cp "${R_CONFIG}" "${R_CONFIG_FILE}"
 
-
 # Cron jobs
 CRONTAB_FILE="crontab"
 crontab -l > ${CRONTAB_FILE}
 
+# Mac terminal settings
+TERMINAL_CONFIG="~/Library/Preferences/com.apple.Terminal.plist"
+TERMINAL_CONFIG_FILE="terminal_config"
+
+cp "${TERMINAL_CONFIG}" "${TERMINAL_CONFIG_FILE}"
 
 # Commit new changes
 DATE="$(date '+%Y-%m-%d %H:%M:%S')"
