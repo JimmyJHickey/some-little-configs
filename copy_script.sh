@@ -5,13 +5,15 @@
 ###
 
 # Set up git
-git config user.name "jimmyjhickey"
-git config user.email "jimmyjhickey@gmail.com"
+GIT_USER_NAME="jimmyjhickey"
+GIT_USER_EMAIL="jimmyjhickey@gmail.com"
+
+git config user.name "${GIT_USER_NAME}"
+git config user.email "${GIT_USER_EMAIL}"
 
 
-# try ssh
-
-git remote set-url origin git@github.com:jimmyjhickey/some-little-configs.git
+# ssh
+git remote set-url origin git@github.com:${GIT_USER_NAME}/some-little-configs.git
 
 # Pull latest changes
 git pull
@@ -41,7 +43,7 @@ CRONTAB_FILE="crontab"
 crontab -l > ${CRONTAB_FILE}
 
 # Mac terminal settings
-TERMINAL_CONFIG="~/Library/Preferences/com.apple.Terminal.plist"
+TERMINAL_CONFIG="/Users/jimmy/Library/Preferences/com.apple.Terminal.plist"
 TERMINAL_CONFIG_FILE="terminal_config"
 
 cp "${TERMINAL_CONFIG}" "${TERMINAL_CONFIG_FILE}"
