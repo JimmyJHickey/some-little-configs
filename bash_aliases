@@ -30,4 +30,8 @@ alias web="cd /Users/jimmy/git/jimmyjhickey.com; brackets /Users/jimmy/git/jimmy
 
 alias lth="python /Users/jimmy/git/grad-scripts/misc/list-to-headers.py"
 
-alias jekyll-down="kill $(ps -A | grep "jekyll serve" | grep -v "grep"  | head -1 | cut -d ' ' -f1)"
+alias save-pdf="/Users/jimmy/git/grad-scripts/misc/web-to-pdf.sh"
+
+# kill jekyll task by finding its PID and killing it
+# this alias requires single quotes because it needs to find the PID when it is run
+alias kjekyll='kill $(ps -A  | grep jekyll | grep -v grep |  cut -d " " -f1)'

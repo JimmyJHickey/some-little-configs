@@ -15,7 +15,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 # *  *  *  *  * user-name  command to be executed
 
 # back up config scripts
-0 12 * * * cd /Users/jimmy/git/some-little-configs/ && bash /Users/jimmy/git/some-little-configs/copy_script.sh # >> /tmp/cronout 2>&1
+0 11 * * * cd /Users/jimmy/git/some-little-configs/ && bash /Users/jimmy/git/some-little-configs/copy_script.sh # >> /tmp/cronout 2>&1
 
 # Update and upgrade homebrew on the first of the month
 0 0 1 * * brew update; brew upgrade
