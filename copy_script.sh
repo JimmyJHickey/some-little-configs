@@ -30,6 +30,8 @@ cp ${BASH_ALIAS_LOCATION} ${BASH_ALIAS_FILE}
 TYPINATOR_LOCATION="/Users/jimmy/Typinator_stuff/MyAbbreviations.tyset"
 TYPINATOR_FILE="TypinatorAbbreviations.tyset"
 
+cp "${TYPINATOR_LOCATION}" "${TYPINATOR_FILE}"
+
 # Vim RC
 VIM_RC_LOCATION="/Users/jimmy/.vimrc"
 VIM_RC_FILE="vimrc"
