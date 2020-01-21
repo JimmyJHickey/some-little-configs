@@ -49,10 +49,10 @@ CRONTAB_FILE="crontab"
 crontab -l > ${CRONTAB_FILE}
 
 # Mac terminal settings
-TERMINAL_CONFIG="/Users/jimmy/Library/Preferences/com.apple.Terminal.plist"
-TERMINAL_CONFIG_FILE="terminal_config"
-
-cp "${TERMINAL_CONFIG}" "${TERMINAL_CONFIG_FILE}"
+#TERMINAL_CONFIG="/Users/jimmy/Library/Preferences/com.apple.Terminal.plist"
+#TERMINAL_CONFIG_FILE="terminal_config"
+#
+#cp "${TERMINAL_CONFIG}" "${TERMINAL_CONFIG_FILE}"
 
 # Commit new changes
 DATE="$(date '+%Y-%m-%d %H:%M:%S')"
