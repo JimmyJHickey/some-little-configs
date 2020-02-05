@@ -37,3 +37,5 @@ alias save-pdf="/Users/jimmy/git/grad-scripts/misc/web-to-pdf.sh"
 # kill jekyll task by finding its PID and killing it
 # this alias requires single quotes because it needs to find the PID when it is run
 alias kjekyll='kill -9 $(pgrep -f "jekyll serve")'
+
+alias check-git='/Users/jimmy/git/grad-scripts/misc/git_subdirs.sh'
