@@ -20,22 +20,22 @@ hg(){
 history | grep "$*" | tail
 }
 
-alias ocr-pdf="/Users/jimmy/git/grad-scripts/misc/ocr_pdf.sh"
+alias ocr-pdf="/Users/jimmy/git/some-little-configs/aliases/ocr_pdf.sh"
 
-alias up-sas="/Users/jimmy/git/grad-scripts/misc/launch_sas.sh"
+alias up-sas="/Users/jimmy/git/some-little-configs/aliases/launch_sas.sh"
 
-alias down-sas="/Users/jimmy/git/grad-scripts/misc/close_sas.sh"
+alias down-sas="/Users/jimmy/git/some-little-configs/aliases/close_sas.sh"
 
 alias web="cd /Users/jimmy/git/jimmyjhickey.com; brackets /Users/jimmy/git/jimmyjhickey.com & jekyll serve & sleep 10; open -na \"Google Chrome\" --args --new-window http://127.0.0.1:4000"
 
 
 # list to header script. pipe to clipboard
-alias lth="python /Users/jimmy/git/grad-scripts/misc/list-to-headers.py | pbcopy"
+alias lth="python /Users/jimmy/git/some-little-configs/aliases/list_to_headers.py | pbcopy"
 
-alias save-pdf="/Users/jimmy/git/grad-scripts/misc/web-to-pdf.sh"
+alias save-pdf="/Users/jimmy/git/some-little-configs/aliases/web_to_pdf.sh"
 
 # kill jekyll task by finding its PID and killing it
 # this alias requires single quotes because it needs to find the PID when it is run
 alias kjekyll='kill -9 $(pgrep -f "jekyll serve")'
 
-alias check-git='/Users/jimmy/git/grad-scripts/misc/git_subdirs.sh'
+alias gcheck='/Users/jimmy/git/some-little-configs/aliases/git_subdirs.sh'
