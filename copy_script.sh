@@ -58,9 +58,9 @@ CHANGES="$(git status --porcelain)"
 if [[ "${CHANGES}" ]]; then
 
 	# sanity check to check that this works
-	touch /tmp/sanity
-	echo "AM RUNNING" >> /tmp/sanity
-	echo $(date) >> /tmp/sanity
+#	touch /tmp/sanity
+#	echo "AM RUNNING" >> /tmp/sanity
+#	echo $(date) >> /tmp/sanity
 
 
 	git add -A
