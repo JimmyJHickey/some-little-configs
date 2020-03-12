@@ -26,6 +26,12 @@ BASH_ALIAS_FILE="bash_aliases"
 
 cp ${BASH_ALIAS_LOCATION} ${BASH_ALIAS_FILE}
 
+# Bash Profile
+BASH_PROFILE_LOCATION="/Users/jimmy/.bash_profile"
+BASH_PROFILE_FILE="bash_profile"
+
+cp ${BASH_PROFILE_LOCATION} ${BASH_PROFILE_FILE}
+
 # Vim RC
 VIM_RC_LOCATION="/Users/jimmy/.vimrc"
 VIM_RC_FILE="vimrc"
