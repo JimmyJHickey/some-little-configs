@@ -39,3 +39,6 @@ alias save-pdf="/Users/jimmy/git/some-little-configs/aliases/web_to_pdf.sh"
 alias kjekyll='kill -9 $(pgrep -f "jekyll serve")'
 
 alias gcheck='/Users/jimmy/git/some-little-configs/aliases/git_subdirs.sh'
+
+# remove files from git repo that have been added to gitignore
+alias gignore='git rm -r --cached .; git add .; git commit -m "Clean up ignored files"'
