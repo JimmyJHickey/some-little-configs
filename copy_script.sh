@@ -38,6 +38,12 @@ VIM_RC_FILE="vimrc"
 
 cp "${VIM_RC_LOCATION}" "${VIM_RC_FILE}"
 
+# IdeaVim RC for Pycharm plug in
+IDEA_VIM_RC_LOCATION="/Users/jimmy/.ideavimrc"
+IDEA_VIM_RC_FILE="ideavimrc"
+
+cp "${IDEA_VIM_RC_LOCATION}" "${IDEA_VIM_RC_FILE}"
+
 # R Config
 R_CONFIG="/Users/jimmy/.Renviron"
 R_CONFIG_FILE="Renviron"
