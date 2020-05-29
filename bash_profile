@@ -15,3 +15,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:${PATH}
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+
+export PATH="/Applications/Julia-1.4.app/Contents/Resources/julia/bin/:$PATH" 
+
