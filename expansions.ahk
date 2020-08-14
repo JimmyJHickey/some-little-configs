@@ -1,8 +1,7 @@
-﻿:*:hw::Hello {Enter}World{Left 6}
-:*:shrugguy::¯\_(ツ)_/¯
+﻿:*:shrugguy::¯\_(ツ)_/¯
 :*:eeerad::🤙
 :*:$$::$${Left 1}
-:*:{` 3}::{` 3}{Enter}{Enter}{` 3}{Left 4}
+:*:{`}{`}{`}::{` 3}{Enter}{Enter}{` 3}{Left 4}
 :*:\frac::\frac{{}  {}}{{}  {}}{Left 6}
 :*:****::****{Left 2}
 :*:\mc::\mathcal
