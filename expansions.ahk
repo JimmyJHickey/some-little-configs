@@ -7,7 +7,7 @@
 :*:eeerad::🤙
 
 ; Web
-:*:\txt::https://messages.google.com/web/conversations{Enter 1}
+:*:\txt::https:{/}{/}messages.google.com{/}web{/}conversations{Enter 1}
 
 
 ; Markdown
