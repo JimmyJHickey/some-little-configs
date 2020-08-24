@@ -31,12 +31,12 @@
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
 :*:ralign::\begin{{}align*{}}{Enter}{Enter}\end{{}align*{}}{Up 1}
 :*:\cases::\begin{{}cases{}}{Enter 2}\end{{}cases{}}{Up 1}
-:*:\bmatrix::"\begin{{}bmatrix{}}{Enter 2}\end{{}bmatrix{}}{Up 1}
+:*:\bmatrix::\begin{{}bmatrix{}}{Enter 2}\end{{}bmatrix{}}{Up 1}
 :*:lqed::<div style="text-align: right"> 🐙 </div>
 
 ;; Over
-:*:\tilde::\widetilde
-:*:\hat::\widehat
+:*:\tilde::\widetilde{Space 1}
+:*:\hat::\widehat{Space 1}
 :*:\bar::\overline{{}  {}}{Left 2}
 
 ;; Grouping
@@ -44,6 +44,7 @@
 :*:\langle::\langle  ,  \rangle{Left 11}
 :*:\Big[::\Big[  \Big]{Left 6}
 :*:\Big(::\Big(  \Big){Left 6}
+:*:\\{::\\{{}  \\{}}{Left 4}
 
 ;; Special Characters
 :*:\ind::\mathbb I(  ){Left 2}
