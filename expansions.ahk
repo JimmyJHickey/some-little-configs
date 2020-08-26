@@ -5,6 +5,7 @@
 ; Fun
 :*:shrugguy::¯\_(ツ)_/¯
 :*:eeerad::🤙
+:*:eeefc::🤞
 
 ; Web
 :*:\txt::https:{/}{/}messages.google.com{/}web{/}conversations{Enter 1}
