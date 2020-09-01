@@ -26,7 +26,10 @@
 :*:\pfrac::\frac{{} \partial  {}}{{}\partial {}}{Left 13}
 :*:\sqrt::\sqrt{{}  {}}{Left 2}
 :*:\xs::X_1, \dots , X_n
-:*:\srs::X_1, \dots , X_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
+:*:\ys::Y_1, \dots , Y_n
+:*:\xrs::X_1, \dots , X_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
+:*:\yrs::Y_1, \dots , Y_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
+:*:\var::\text{{}Var{}}({Space 3}){Left 2}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
@@ -54,6 +57,8 @@
 :*:\varep::\varepsilon
 :*:\seteq::\stackrel{{}\text{{}set{}}{}}{{}={}}{Space 1}
 :*:\iid::\stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
+:*:\convp::\stackrel{{} \text{{}p{}}{}}{{}\rightarrow{}}
+:*:\convd::\stackrel{{} \text{{}d{}}{}}{{}\rightarrow{}}
 
 ;; Text
 :*:\vs::\text{{} vs. {}}
