@@ -73,3 +73,6 @@
 :*:\mf::\mathbf{Space 1}
 :*:\bf::\mathbf{Space 1}
 :*:\mb::\mathbb{Space 1}
+
+; Notion
+:*:$%::/ma{Enter 1}
