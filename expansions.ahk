@@ -33,6 +33,7 @@
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
+:*:larray::$${Enter}\begin{{}array{}}{{}   {}}{Enter}{Enter}\end{{}array{}}{Enter}$${Up 2}
 :*:ralign::\begin{{}align*{}}{Enter}{Enter}\end{{}align*{}}{Up 1}
 :*:\cases::\begin{{}cases{}}{Enter 2}\end{{}cases{}}{Up 1}
 :*:\bmatrix::\begin{{}bmatrix{}}{Enter 2}\end{{}bmatrix{}}{Up 1}
