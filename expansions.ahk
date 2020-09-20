@@ -30,6 +30,7 @@
 :*:\xrs::X_1, \dots , X_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\yrs::Y_1, \dots , Y_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\var::\text{{}Var{}}({Space 3}){Left 2}
+:*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
@@ -48,7 +49,9 @@
 :*:\Big{::\Big\{{}  \Big\{}}{Left 7}
 :*:\langle::\langle  ,  \rangle{Left 11}
 :*:\Big[::\Big[  \Big]{Left 6}
+:*:\Bigg[::\Bigg[  \Bigg]{Left 7}
 :*:\Big(::\Big(  \Big){Left 6}
+:*:\Bigg(::\Bigg(  \Bigg){Left 7}
 :*:\\{::\\{{}  \\{}}{Left 4}
 
 ;; Special Characters
@@ -71,8 +74,8 @@
 
 ;; Character Set
 :*:\mc::\mathcal{Space 1}
-:*:\mf::\mathbf{Space 1}
-:*:\bf::\mathbf{Space 1}
+:*:\mf::\pmb{Space 1}
+:*:\bf::\pmb{Space 1}
 :*:\mb::\mathbb{Space 1}
 
 ; Notion
