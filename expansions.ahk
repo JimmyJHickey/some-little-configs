@@ -15,7 +15,7 @@
 :*:****::****{Left 2}
 
 ;; RMarkdown
-:*:\rcode::{` 3} {{}r:: echo=TRUE:: warning=FALSE{}}{Enter 2}{` 3}{Up 1}
+:*:\rcode::```{{}r:: echo=TRUE:: warning=FALSE{}}{Enter 2}```{Up 1}
 
 
 ; LaTeX
@@ -31,6 +31,7 @@
 :*:\yrs::Y_1, \dots , Y_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\var::\text{{}Var{}}({Space 3}){Left 2}
 :*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
+:*:\sumn::\sum_{i=1}^{n}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
