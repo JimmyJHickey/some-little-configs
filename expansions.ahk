@@ -66,6 +66,7 @@
 :*:\iid::\stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\convp::\stackrel{{} \text{{}p{}}{}}{{}\rightarrow{}}
 :*:\convd::\stackrel{{} \text{{}d{}}{}}{{}\rightarrow{}}
+:*:\limn::\lim_{{}n\rightarrow \infty{}} 
 
 ;; Text
 :*:\vs::\text{{} vs. {}}
