@@ -6,6 +6,7 @@
 :*:shrugguy::¯\_(ツ)_/¯
 :*:eeerad::🤙
 :*:eeefc::🤞
+:*:eeech::✅
 
 ; Web
 :*:\txt::https:{/}{/}messages.google.com{/}web{/}conversations{Enter 1}
@@ -31,7 +32,8 @@
 :*:\yrs::Y_1, \dots , Y_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\var::\text{{}Var{}}({Space 3}){Left 2}
 :*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
-:*:\sumn::\sum_{i=1}^{n}
+:*:\sumn::\sum_{{}i=1{}}{^}{{}n{}}{Space 1}
+:*:\prodn::\prod_{{}i=1{}}{^}{{}n{}}{Space 1}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
