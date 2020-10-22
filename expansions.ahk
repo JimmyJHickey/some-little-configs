@@ -34,6 +34,9 @@
 :*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
 :*:\sumn::\sum_{{}i=1{}}{^}{{}n{}}{Space 1}
 :*:\prodn::\prod_{{}i=1{}}{^}{{}n{}}{Space 1}
+:*:\emse::\widehat{{}\text{{}MSE{}}{}}
+:*:\kurt::\text{{}Kurt{}}(  ){Left 2}
+:*:\skew::\text{{}Skew{}}(  ){Left 2}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
@@ -46,7 +49,7 @@
 ;; Over
 :*:\tilde::\widetilde{Space 1}
 :*:\hat::\widehat{Space 1}
-:*:\bar::\overline{{}  {}}{Left 2}
+:*:\bar::\overline{Space 1}
 
 ;; Grouping
 :*:\Big{::\Big\{{}  \Big\{}}{Left 7}
