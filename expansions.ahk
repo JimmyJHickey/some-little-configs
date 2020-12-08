@@ -30,7 +30,7 @@
 :*:\ys::Y_1, \dots , Y_n
 :*:\xrs::X_1, \dots , X_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
 :*:\yrs::Y_1, \dots , Y_N \stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
-:*:\var::\text{{}Var{}}({Space 3}){Left 2}
+:*:\vari::\text{{}Var{}}({Space 3}){Left 2}
 :*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
 :*:\sumn::\sum_{{}i=1{}}{^}{{}n{}}{Space 1}
 :*:\prodn::\prod_{{}i=1{}}{^}{{}n{}}{Space 1}
@@ -59,6 +59,8 @@
 :*:\Big(::\Big(  \Big){Left 6}
 :*:\Bigg(::\Bigg(  \Bigg){Left 7}
 :*:\\{::\\{{}  \\{}}{Left 4}
+:*:\left(::\left(  \right){Left 8}
+:*:\left[::\left[  \right]{Left 8}
 
 ;; Special Characters
 :*:\ind::\mathbb I(  ){Left 2}
