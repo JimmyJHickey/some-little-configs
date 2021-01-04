@@ -58,9 +58,11 @@
 :*:\Bigg[::\Bigg[  \Bigg]{Left 7}
 :*:\Big(::\Big(  \Big){Left 6}
 :*:\Bigg(::\Bigg(  \Bigg){Left 7}
-:*:\\{::\\{{}  \\{}}{Left 4}
+:*:\\{{}::\\{{}  \\{}}{Left 4}
 :*:\left(::\left(  \right){Left 8}
 :*:\left[::\left[  \right]{Left 8}
+:*:\left{::\left\{{}  \right\{}}{Left 9}
+:*:\left\{::\left\{{}  \right\{}}{Left 9}
 
 ;; Special Characters
 :*:\ind::\mathbb I(  ){Left 2}
