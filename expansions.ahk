@@ -4,9 +4,11 @@
 
 ; Fun
 :*:shrugguy::¯\_(ツ)_/¯
+:*:eeeth::👍
 :*:eeerad::🤙
 :*:eeefc::🤞
 :*:eeech::✅
+:*:eeex::❌
 
 ; Web
 :*:\txt::https:{/}{/}messages.google.com{/}web{/}conversations{Enter 1}
@@ -34,9 +36,19 @@
 :*:\cov::\text{{}Cov{}}({Space 3}){Left 2}
 :*:\sumn::\sum_{{}i=1{}}{^}{{}n{}}{Space 1}
 :*:\prodn::\prod_{{}i=1{}}{^}{{}n{}}{Space 1}
+:*:\cupn::\bigcup_{{}i=1{}}{^}{{}n{}}{Space 1}
+:*:\capn::\bigcap_{{}i=1{}}{^}{{}n{}}{Space 1}
+:*:\sumi::\sum_{{}i=1{}}{^}{{}\infty{}}{Space 1}
+:*:\prodi::\prod_{{}i=1{}}{^}{{}\infty{}}{Space 1}
+:*:\cupi::\bigcup_{{}i=1{}}{^}{{}\infty{}}{Space 1}
+:*:\capi::\bigcap_{{}i=1{}}{^}{{}\infty{}}{Space 1}
 :*:\emse::\widehat{{}\text{{}MSE{}}{}}
 :*:\kurt::\text{{}Kurt{}}(  ){Left 2}
 :*:\skew::\text{{}Skew{}}(  ){Left 2}
+
+;; Integrals
+:*:\inti::\int_{{}-\infty{}}{^}{{}\infty{}}{Space 1}
+:*:\int0::\int_{{}0{}}{^}{{}\infty{}}{Space 1}
 
 ;; Structure
 :*:lali::$${Enter}\begin{{}align{}}{Enter}{Enter}\end{{}align{}}{Enter}$${Up 2}
@@ -53,7 +65,7 @@
 
 ;; Grouping
 :*:\Big{::\Big\{{}  \Big\{}}{Left 7}
-:*:\langle::\langle  ,  \rangle{Left 11}
+:*:\langle::\langle  \rangle{Left 8}
 :*:\Big[::\Big[  \Big]{Left 6}
 :*:\Bigg[::\Bigg[  \Bigg]{Left 7}
 :*:\Big(::\Big(  \Big){Left 6}
@@ -62,7 +74,7 @@
 :*:\left(::\left(  \right){Left 8}
 :*:\left[::\left[  \right]{Left 8}
 :*:\left{::\left\{{}  \right\{}}{Left 9}
-:*:\left\{::\left\{{}  \right\{}}{Left 9}
+:*:\left\{::\left\\{{}  \right\\{}}{Left 10}
 
 ;; Special Characters
 :*:\ind::\mathbb I(  ){Left 2}
@@ -91,3 +103,7 @@
 
 ; Notion
 :*:$%::/ma{Enter 1}
+
+; meme
+:*:/dumb::It sounds dumb, but a deep breath can help prevent tilt.{Enter 1}
+
