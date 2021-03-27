@@ -59,22 +59,46 @@
 :*:lqed::<div style="text-align: right"> 🐙 </div>
 
 ;; Over
-:*:\tilde::\widetilde{Space 1}
-:*:\hat::\widehat{Space 1}
-:*:\bar::\overline{Space 1}
+:*:\tilde::\widetilde{{}  {}}{Left 2}
+:*:\hat::\widehat{{}  {}}{Left 2}
+:*:\bar::\overline{{}  {}}{Left 2}
 
 ;; Grouping
-:*:\Big{::\Big\{{}  \Big\{}}{Left 7}
-:*:\langle::\langle  \rangle{Left 8}
-:*:\Big[::\Big[  \Big]{Left 6}
-:*:\Bigg[::\Bigg[  \Bigg]{Left 7}
-:*:\Big(::\Big(  \Big){Left 6}
-:*:\Bigg(::\Bigg(  \Bigg){Left 7}
-:*:\\{{}::\\{{}  \\{}}{Left 4}
-:*:\left(::\left(  \right){Left 8}
-:*:\left[::\left[  \right]{Left 8}
-:*:\left{::\left\{{}  \right\{}}{Left 9}
-:*:\left\{::\left\\{{}  \right\\{}}{Left 10}
+
+;;; Parenthesis ()
+:*C:\big(::\big(  \big){Left 6}
+:*C:\Big(::\Big(  \Big){Left 6}
+:*C:\bigg(::\bigg(  \bigg){Left 7}
+:*C:\Bigg(::\Bigg(  \Bigg){Left 7}
+
+;;; Brackets []
+:*C:\big[::\big[  \big]{Left 6}
+:*C:\Big[::\Big[  \Big]{Left 6}
+:*C:\bigg[::\bigg[  \bigg]{Left 7}
+:*C:\Bigg[::\Bigg[  \Bigg]{Left 7}
+
+;;; Curly Braces {}
+:*C:\big{::\big\{{}  \big\{}}{Left 6}
+:*C:\Big{::\Big\{{}  \Big\{}}{Left 6}
+:*C:\bigg{::\bigg\{{}  \bigg\{}}{Left 7}
+:*C:\Bigg{::\Bigg\{{}  \Bigg\{}}{Left 7}
+
+
+;;; Inline Curly Braces {}
+:*C:\big\{::\big\\{{}  \big\\{}}{Left 6}
+:*C:\Big\{::\Big\\{{}  \Big\\{}}{Left 6}
+:*C:\bigg\{::\bigg\\{{}  \bigg\\{}}{Left 7}
+:*C:\Bigg\{::\Bigg\\{{}  \Bigg\\{}}{Left 7}
+
+:*C:\langle::\langle  \rangle{Left 8}
+
+
+;;; Left and right
+:*C:\\{{}::\\{{}  \\{}}{Left 4}
+:*C:\left(::\left(  \right){Left 8}
+:*C:\left[::\left[  \right]{Left 8}
+:*C:\left{::\left\{{}  \right\{}}{Left 9}
+:*C:\left\{::\left\\{{}  \right\\{}}{Left 10}
 
 ;; Special Characters
 :*:\ind::\mathbb I(  ){Left 2}
@@ -96,10 +120,11 @@
 :*:\test::H_0:  \text{{} vs. {}} H_1:{Left 18}
 
 ;; Character Set
-:*:\mc::\mathcal{Space 1}
-:*:\mf::\pmb{Space 1}
-:*:\bf::\pmb{Space 1}
-:*:\mb::\mathbb{Space 1}
+:*:\mc::\mathcal{{}{}}{Left 1}
+:*:\mf::\pmb{{}{}}{Left 1}
+:*:\bf::\pmb{{}{}}{Left 1}
+:*:\mb::\mathbb{{}{}}{Left 1}
+
 
 ; Notion
 :*:$%::/ma{Enter 1}
