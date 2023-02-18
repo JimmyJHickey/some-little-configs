@@ -1,4 +1,4 @@
-﻿; Broken
+; Broken
 :*:{`}{`}{`}::{` 3}{Enter}{Enter}{` 3}{Left 4}
 
 
@@ -11,7 +11,16 @@
 :*:eeex::❌
 
 ; Web
+
+;; open google messages
 :*:\txt::https:{/}{/}messages.google.com{/}web{/}conversations{Enter 1}
+
+
+;; open HBO max, wait then click second profile
+:*:\hbo::
+Send, https://play.hbomax.com/page/urn:hbo:page:home{Enter 1}
+Sleep, 4000
+Send, {Tab 2}{Enter 1}
 
 
 ; Markdown
@@ -45,6 +54,7 @@
 :*:\emse::\widehat{{}\text{{}MSE{}}{}}
 :*:\kurt::\text{{}Kurt{}}(  ){Left 2}
 :*:\skew::\text{{}Skew{}}(  ){Left 2}
+:*:\red::\textcolor{{}red{}}{{}{}}{Left 1}
 
 ;; Integrals
 :*:\inti::\int_{{}-\infty{}}{^}{{}\infty{}}{Space 1}
@@ -107,28 +117,34 @@
 :*:\varep::\varepsilon
 :*:\seteq::\stackrel{{}\text{{}set{}}{}}{{}={}}{Space 1}
 :*:\iid::\stackrel{{} \text{{}iid{}}{}}{{}\sim{}}
+:*:\conva::\stackrel{{} \text{{}a.s.{}}{}}{{}\rightarrow{}}
 :*:\convp::\stackrel{{} \text{{}p{}}{}}{{}\rightarrow{}}
 :*:\convd::\stackrel{{} \text{{}d{}}{}}{{}\rightarrow{}}
 :*:\limn::\lim_{{}n\rightarrow \infty{}} 
 
+
 ;; Text
-:*:\vs::\text{{} vs. {}}
+;*:\vs::\text{{} vs. {}}
 :*:\tr::\text{{}tr{}}(  ){Left 2}
 :*:\if::\text{{}if {}}
 :*:\rank::\text{{}rank{}}(  ){Left 2}
-:*:\col::\text{{} column {}}(  ){Left 2}
+;;:*:\col::\text{{} column {}}(  ){Left 2}
 :*:\test::H_0:  \text{{} vs. {}} H_1:{Left 18}
+:*:\cau::\text{{}Cauchy{}}
+:*:\tn::\text{{}N{}}
 
 ;; Character Set
 :*:\mc::\mathcal{{}{}}{Left 1}
-:*:\mf::\pmb{{}{}}{Left 1}
-:*:\bf::\pmb{{}{}}{Left 1}
+:*:\mf::\boldsymbol{{}{}}{Left 1}
+:*:\bf::\boldsymbol{{}{}}{Left 1}
 :*:\mb::\mathbb{{}{}}{Left 1}
 
+;; I've never made a typo
+:*:\theat::\theta
+:*:nomral::normal
+:*:simga::sigma
+:*:Simga::Sigma
 
-; Notion
-:*:$%::/ma{Enter 1}
-
-; meme
-:*:/dumb::It sounds dumb, but a deep breath can help prevent tilt.{Enter 1}
-
+; vim
+:*::Wq:::wq
+:*::Q:::q
