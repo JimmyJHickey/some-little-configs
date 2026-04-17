@@ -51,3 +51,5 @@ alias gignore='git rm -r --cached .; git add .; git commit -m "Clean up ignored 
 
 alias python='python3'
 alias pip='pip3'
+
+export PS1="\[\e[0;36m\][\W]\$ \[\e[0m\]"

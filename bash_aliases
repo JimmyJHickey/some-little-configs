@@ -20,19 +20,9 @@ hg(){
 history | grep "$*" | tail
 }
 
-alias ocr-pdf="/Users/jimmy/git/some-little-configs/aliases/ocr_pdf.sh"
-
-alias up-sas="/Users/jimmy/git/some-little-configs/aliases/launch_sas.sh"
-
-alias down-sas="/Users/jimmy/git/some-little-configs/aliases/close_sas.sh"
 
 alias web="cd /Users/jimmy/git/jimmyjhickey.com; brackets /Users/jimmy/git/jimmyjhickey.com & jekyll serve & sleep 10; open -na \"Google Chrome\" --args --new-window http://127.0.0.1:4000"
 
-
-# list to header script. pipe to clipboard
-alias lth="python /Users/jimmy/git/some-little-configs/aliases/list_to_headers.py | pbcopy"
-
-alias save-pdf="/Users/jimmy/git/some-little-configs/aliases/web_to_pdf.sh"
 
 # kill jekyll task by finding its PID and killing it
 # this alias requires single quotes because it needs to find the PID when it is run
@@ -43,4 +33,4 @@ alias gcheck='/Users/jimmy/git/some-little-configs/aliases/git_subdirs.sh'
 # remove files from git repo that have been added to gitignore
 alias gignore='git rm -r --cached .; git add .; git commit -m "Clean up ignored files"'
 
-export PS1="\e[0;36m[\W]\$ \e[0m"
+export PS1="\[\e[0;36m\][\W]\$ \[\e[0m\]"
